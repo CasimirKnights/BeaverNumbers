@@ -1,0 +1,8 @@
+import BeaverStructural.BB6.Decimal200BaseValues
+namespace BeaverStructural.BB6.Decimal200
+set_option compiler.extract_closed false
+set_option maxRecDepth 100000
+set_option maxHeartbeats 2000000
+theorem steady_numeric : decimal.steady=93190299907293007596177469224958674033936450132569722204281813258599434414696928250274845372570347019303720696026374422743283678930065567572227678459114796309916827132481000135244006150308632857673727 := by decide +kernel
+
+end BeaverStructural.BB6.Decimal200

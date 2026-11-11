@@ -1,0 +1,18 @@
+machine 1RB0RG_1RC1RB_0RD1RZ_0LE0LD_0LF1LE_1RA1LF_1LC0RB
+  blank tape at step 3959 is K(8; 0, 1^19): True
+  rule D at exactly 12a^2 + 66a + 58 steps: 63/63
+  rule B_k, k = 1..19, at exactly its step count: 228/228
+  rule E: K(a; 0^20) halts at exactly 48a^2 + 198a - 456 with 6a + 7 ones: 6/6
+  the clock T_k(n, a) and P_1 on the machine, to 562760 steps: 9/9
+  T_0(3x + 2, 1) mod 10^30 from x and V_1(x) mod 4 10^32 equals the stored integer, x = 1..4: True
+  the level-1 summand at 6 equals the stored integer; V_1(6) and V_1(8) are the two constants: True
+  V_1^i(6) mod 4 10^6 by the residue chain equals the stored integer, i = 0, 1: True
+  the level-1 summand has period 2 from index D + 4 (checked at D = 30): True
+  the read at 10^10 equals the read at 10^200 reduced: True
+  the read at 10^50 equals the read at 10^200 reduced: True
+  the read at 10^100 equals the read at 10^200 reduced: True
+tau mod 10^200:
+  73428777837952993932558769478822530186098574054291312567353699908846487228941494006822946829647472038108444008989374401252315208961679286188413869309976773701212302531357930057713528229743458345356287
+sigma mod 10^200:
+  38146269853501365410645620969226103723067399102116242894037345432144851507307992961694105209402589140584375632186552499340414462252588919319066067278807809867872153028729243567821670670118939603706013
+exit 0

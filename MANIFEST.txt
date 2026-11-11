@@ -1,0 +1,18 @@
+BeaverStructural — exact step counts of four busy-beaver machines, formalized (public deposit)
+Construction and claims: C. Forrester
+Packaged: 2026-11-10T21:31:33.478515+00:00
+Lean toolchain: leanprover/lean4:v4.30.0-rc1
+Pinned dependencies (lake-manifest.json):
+  mathlib 9470b68e2f52705134448bb88b97d85470c06908
+  plausible 264309b5c0c10e569025a53ab6440a45c03133e4
+  LeanSearchClient c5d5b8fe6e5158def25cd28eb94e4141ad97c843
+  importGraph 4411c5f89c797401c609b3a946c8874569e69731
+  proofwidgets 82d457fb3bdd9efadbae06608ff337d689efdddf
+  aesop f74c7555aaa94eadd7b7bff9170f7983f92aac21
+  Qq 7aa86cb20b8458748dc24d55dab2d7ea01161057
+  batteries bf597c77bf9b8e66720d724928207f5911533113
+  Cli f7d0ca7c926cdde0562af20394dd25d028b839a5
+Build: lake build -> Build completed successfully (3530 jobs).
+Statements: bb6_first_stop_and_digits, bb7_first_stop_and_digits, bb7b_first_stop_and_digits, bb34_first_stop_and_digits; axioms propext, Classical.choice, Quot.sound only; no sorry
+Files hashed: 236 (225 Lean files)
+SHA-256 of SHA256SUMS: 47e4e33a52e577e8d0ce4ca60d1a3c28a128ee4e42a4aa606c3aa2ba21a51b67

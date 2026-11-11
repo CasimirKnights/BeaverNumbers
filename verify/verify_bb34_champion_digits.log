@@ -1,0 +1,15 @@
+machine 1RB3LB1RZ2RA_2LC3RB1LC2RA_3RB1LB3LC2RC
+  blank tape at step 241 is B(16, 3, 0) with context 2: True
+  B(k, n, a) -> B(k, 0, g^n(a)) at exactly the clock's step count, two right contexts: 78/78
+  B(k, 0, a) with context 2 halts in one step with a + k + 2 nonblank cells: 4/4
+  truncated champions B(1, 3, 0) 2 and B(2, 3, 0) 2 halt at 1 + clock (52 and 1168): 2/2
+  T_0(2, 0), T_0(14, 0), T_1(2, 0) mod 10^40 equal the stored integers: True
+  T_0(65534, 0) (a 131073-bit integer) mod 10^40 equals the read: True
+  the read at 10^10 equals the read at 10^200 reduced: True
+  the read at 10^50 equals the read at 10^200 reduced: True
+  the read at 10^100 equals the read at 10^200 reduced: True
+tau mod 10^200:
+  66472556816678537004442489651861394493871801061408453005565013967672312146603676135321084747442383169401224698960399961853900728282682573633487960377917913767778012157999678639877282968144064457604929
+sigma mod 10^200:
+  04299269691927189062503623574424769420495363221080797961763483968145105115173575459243654693520017384422568887190225094017989855389270912121282841628624570145528696872600159853338098615075353432948750
+exit 0

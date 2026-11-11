@@ -1,0 +1,17 @@
+machine 1RB0RA_1LC1LF_1RD0LB_1RA1LE_1RZ0LC_1RG1LD_0RG0RF
+  blank tape at step 8574 is B(4; 1^12): True
+  B(a; b+1, R) -> B(2a+4; b, R) at exactly C1(a) steps: 45/45
+  B(a; 0^k, 0, n+1, R) -> B(0; 0^k, a+2, n, R) at exactly C2(a, k) steps: 80/80
+  B(a; 0^k) halts at exactly CH(a, k) steps with 3a + 2k + 10 ones: 20/20
+  the clock T_k(n, a) on the machine: 10/10
+  T_0(2, 0), T_0(14, 0), T_1(2, 0) mod 10^40 equal the stored integers: True
+  T_0(65534, 0) (a 131076-bit integer) mod 10^40 equals the read: True
+  A_1 = 12 and A_2 = 65532: True
+  the read at 10^10 equals the read at 10^200 reduced: True
+  the read at 10^50 equals the read at 10^200 reduced: True
+  the read at 10^100 equals the read at 10^200 reduced: True
+tau mod 10^200:
+  10442722074196456773707640344163283107608038313650144315814389328319446910761894323931867085376411580682445199494700647587803129645200041753088294078160945237875590633254874041202959286480341950034543
+sigma mod 10^200:
+  12897809075781567187510870723274308261486089663242393885290451904435315345520726377730964080560052153267706661570675282053969566167812736363848524885873710436586090617800479560014295845226060298846230
+exit 0
